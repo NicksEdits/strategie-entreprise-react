@@ -9,7 +9,9 @@ body {
 main {
     position: relative;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 header {
     position: relative;
 }

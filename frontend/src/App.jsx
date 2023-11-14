@@ -20,7 +20,7 @@ function App() {
                 <header>
                     <img alt='' className='head' src={chateauImage}/>
                     <img className='logo' src={logo}/>
-                    <h1><span>Chateau</span> <br/> <span>La Marquise </span></h1>
+                    <h1><span>La Marquise </span></h1>
                     <div class='burger'>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                              stroke="currentColor" aria-hidden="true" className="w-6 h-6">
@@ -28,22 +28,20 @@ function App() {
                                   d="M3.75 9h16.5m-16.5 6.75h16.5"></path>
                         </svg>
                     </div>
-                    <div class='arrow'>
+                    <a href='#ok' class='arrow'>
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256"
                              height="1em"
                              width="1em" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M128,28A100,100,0,1,0,228,128,100.11,100.11,0,0,0,128,28Zm0,192a92,92,0,1,1,92-92A92.1,92.1,0,0,1,128,220Zm34.83-86.83a4,4,0,0,1,0,5.66l-32,32a4,4,0,0,1-5.66,0l-32-32a4,4,0,0,1,5.66-5.66L124,158.34V88a4,4,0,0,1,8,0v70.34l25.17-25.17A4,4,0,0,1,162.83,133.17Z"></path>
                         </svg>
-                    </div>
+                    </a>
                 </header>
-                <div className='cols'>
+                <div id='ok' className='cols'>
                     <div className='col1'>
                         <h2> Le chateau da Vinci</h2>
-                        <p>Lorem ipsum dolor sit ametconsectetur. <br/> Eu leo tortor felis sodales urna
-                            libero.<br/> Pretium risus sem nisl interdum nunc orci cursus sapien. <br/> Et porta
-                            molestie id urna</p>
-                        <a href="#">amet constiejcor.</a>
+                        <p>Bienvenue à La Marquise, un lieu d'exception au château de Tracy, où luxe et authenticité se rencontrent.<br/> Nos séminaires exclusifs offrent des expériences sensorielles inoubliables avec des paniers gourmands locaux mettant en avant des vins d'exception, des truffes exquises et des fromages artisanaux. <br/> Explorez la Bourgogne à travers nos dégustations captivantes, plongez dans l'histoire du domaine et séjournez dans l'opulence du château pour une expérience nocturne exceptionnelle. <br/><br/>Réservez dès maintenant pour une aventure gastronomique et culturelle inégalée.</p>
+
                     </div>
                     <div className='col2'>
                         <img src={col2}/>
