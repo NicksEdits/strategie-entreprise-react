@@ -11,7 +11,7 @@ import col1 from './assets/6.jpeg'
 import actus1 from './assets/343-tracy-le-mont-tracy-mont-chateau-offemont-facade.jpg'
 import col2 from './assets/7.jpg'
 import actus2 from './assets/8.jpg'
-
+import gg from './assets/629383ee30fb025780ee2970.png'
 
 function App() {
     return (
@@ -39,7 +39,7 @@ function App() {
                 </header>
                 <div id='ok' className='cols'>
                     <div className='col1'>
-                        <h2> Le chateau da Vinci</h2>
+                        <h2> La Marquise</h2>
                         <p>Bienvenue à La Marquise, un lieu d'exception au château de Tracy, où luxe et authenticité se rencontrent.<br/> Nos séminaires exclusifs offrent des expériences sensorielles inoubliables avec des paniers gourmands locaux mettant en avant des vins d'exception, des truffes exquises et des fromages artisanaux. <br/> Explorez la Bourgogne à travers nos dégustations captivantes, plongez dans l'histoire du domaine et séjournez dans l'opulence du château pour une expérience nocturne exceptionnelle. <br/><br/>Réservez dès maintenant pour une aventure gastronomique et culturelle inégalée.</p>
 
                     </div>
@@ -101,37 +101,50 @@ function App() {
                     </div>
                     <div className='col1devis'>
                         <h2> Je demande un devis</h2>
-                        <p>Lorem ipsum dolor sit ametconsectetur. <br/> Eu leo tortor felis sodales urna
-                            libero.<br/> Pretium risus sem nisl interdum nunc orci cursus sapien. <br/> Et porta
-                            molestie id urna</p>
-                        <a href="#">amet constiejcor.</a>
+                        <p>Vivez l'exception avec La marquise ! Chaque moment est une expérience à part entière, conçue sur mesure pour vous.  Demandez dès maintenant votre devis personnalisé et laissez-nous créer l'inoubliable. Votre aventure commence ici.
+                        </p>
+                        <a href="#">Demander un devis.</a>
                     </div>
 
                 </div>
                 <div className='txt-apd'>
+                    <div className='gg'>
+                        <img src={gg} alt='' width='300'/>
+                    </div>
                     <div className='textes'>
                         <div>
                             <h3> Marco</h3>
-                            <p> Directeur marketing hoost</p>
+                            <p>Particulier </p>
                             <span>Notre séjour au Chateau de Tracy fut exceptionnel ! La méthode de production du vin présentée avec passion a enrichi notre expérience. Le cadre du château, empreint d'élégance historique, a créé une atmosphère magique. Merci pour cette expérience mémorable.</span>
                         </div>
                         <div>
-                            <h3> Marco</h3>
-                            <p> Directeur marketing hoost</p>
-                            <span>Notre séjour au Chateau de Tracy fut exceptionnel ! La méthode de production du vin présentée avec passion a enrichi notre expérience. Le cadre du château, empreint d'élégance historique, a créé une atmosphère magique. Merci pour cette expérience mémorable.</span>
+                            <h3> Marie-Christine Piedeloup</h3>
+                            <p> Ressources Humaine</p>
+                            <span>Excellent accueil et visite privée fort intéressante. Nous nous sommes sentis vraiment les hôtes privilégiés dans ce beau domaine. Les vins sont exquis, la table raffinée, le cadre superbe. Un grand merci à l’organisateur pour ce concept!
+</span>
                         </div>
 
                     </div>
                     <div className='textes'>
                         <div>
-                            <h3> Marco</h3>
-                            <p> Directeur marketing hoost</p>
-                            <span>Notre séjour au Chateau de Tracy fut exceptionnel ! La méthode de production du vin présentée avec passion a enrichi notre expérience. Le cadre du château, empreint d'élégance historique, a créé une atmosphère magique. Merci pour cette expérience mémorable.</span>
+                            <h3> Marion Urien-Dupuis </h3>
+                            <p> Directrice marketing hoost</p>
+                            <span>Nous avons effectué une visite des caves et vignes accompagnée d'une dégustation commentée au domaine, avec Cédric. C'était un moment enrichissant et instructif, il était
+
+
+vraiment passionné et passionnant, c'était un bonheur d'apprendre à son contact. Je conseille absolument cette visite : ne pas hésiter à en faire un des premiers vignobles
+</span>
                         </div>
                         <div>
-                            <h3> Marco</h3>
-                            <p> Directeur marketing hoost</p>
-                            <span>Notre séjour au Chateau de Tracy fut exceptionnel ! La méthode de production du vin présentée avec passion a enrichi notre expérience. Le cadre du château, empreint d'élégance historique, a créé une atmosphère magique. Merci pour cette expérience mémorable.</span>
+                            <h3> Laudine Cavrois
+                            </h3>
+                            <p> Particuler</p>
+                            <span>Superbe visite du domaine avec Cédric qui est passionné et passionnant !
+Il s’adapte à votre niveau de connaissance en vin.
+Épicurien dans l’âme il ne manque également pas de vous conseiller avec quels mets assortir le vin que vous êtes en train de déguster !
+Très pédagogue Cédric vous aide à sentir toutes les richesses du vin que vous dégustez !
+Bref on recommande vivement !!
+</span>
                         </div>
 
                     </div>
