@@ -49,7 +49,7 @@ function App() {
                 </div>
                 <div className='titre'>
                     <div className='separator'></div>
-                    <h3> Du bon vin ainsi que du bon paim </h3>
+                    <h3> Du bon vin ainsi que du bon pain </h3>
                 </div>
 
 
